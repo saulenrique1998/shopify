@@ -1,1 +1,422 @@
-{"sections":{"4cc83a0f-e622-47b4-90fa-8197ecbf1b61":{"type":"travel-carousel","blocks":{"bd68fd51-4ae0-465c-a23d-d35c127d5626":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/carousel-2.jpg"}}},"block_order":["bd68fd51-4ae0-465c-a23d-d35c127d5626"],"settings":{"section_title":"Información importante","background-color":"#000000","img1":"shopify:\/\/shop_images\/carousel-1.jpg"}},"fb6ed46b-9bb0-47e4-a01e-d8309e2975b2":{"type":"travel-booking","settings":{"section_title":"Información importante","background-color":"#000000"}},"9c26d22f-7348-40d6-a74b-e9f7108f0c48":{"type":"travel-about","settings":{"section_title":"About Us","section_subtitle":"We Provide Best Tour Packages In Your Budget","section_description":"<p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo<\/p>","background-color":"#000000","img1":"shopify:\/\/shop_images\/about.jpg","img2":"shopify:\/\/shop_images\/about-1.jpg","img3":"shopify:\/\/shop_images\/about-2.jpg"}},"224d1928-a4db-4b08-9643-ade7767b7c8a":{"type":"travel-feature","settings":{"section_title":"Información importante","background-color":"#000000"}},"rich_text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Talk about your brand","heading_size":"h1"}},"text":{"type":"text","settings":{"text":"<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"}}},"block_order":["heading","text"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-1","full_width":true,"padding_top":40,"padding_bottom":0}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":28,"padding_bottom":36}},"64fecff1-6573-46f9-9e39-e28f79c132d7":{"type":"travel-destination","blocks":{"73f791b3-39b8-4042-83dc-3578d218408e":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/destination-1.jpg","title":"United States","atractivo":"100 Ciudades"}},"24a86f5a-0fd4-482d-a28e-7a84cfc998b6":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/destination-2.jpg","title":"United Kingdom","atractivo":"100 Ciudades"}},"788b4af5-0c14-401a-a066-1165c86ad758":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/destination-3.jpg","title":"Australia","atractivo":"100 Ciudades"}},"f0d86b46-94f7-4303-8a10-3bdb769c32fa":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/destination-4.jpg","title":"India","atractivo":"100 Ciudades"}},"f502cc1a-2dbb-4541-88e1-982f1db6de14":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/destination-5.jpg","title":"South Africa","atractivo":"100 Ciudades"}},"39db245a-506f-484c-b434-555585659970":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/destination-6.jpg","title":"Indonesia","atractivo":"100 ciudades"}}},"block_order":["73f791b3-39b8-4042-83dc-3578d218408e","24a86f5a-0fd4-482d-a28e-7a84cfc998b6","788b4af5-0c14-401a-a066-1165c86ad758","f0d86b46-94f7-4303-8a10-3bdb769c32fa","f502cc1a-2dbb-4541-88e1-982f1db6de14","39db245a-506f-484c-b434-555585659970"],"settings":{"section_title":"Destinos","section_subtitle":"los mejores lugares"}},"e7b8e992-65c9-4be7-bcd2-4fa3eebcbf3c":{"type":"travel-service","blocks":{"54abecc8-0491-4980-b3ad-73c45194e7dc":{"type":"text_block","settings":{}},"5ffd172a-6934-4c4f-acf7-449d98dc9852":{"type":"text_block","settings":{}}},"block_order":["54abecc8-0491-4980-b3ad-73c45194e7dc","5ffd172a-6934-4c4f-acf7-449d98dc9852"],"settings":{"section_name":"Services","section_title":"Tours & Travel Services","c1_titulo":"Travel Guide","c1_descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>","c2_titulo":"Ticket Booking","c2_descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>","c3_titulo":"Hotel Booking","c3_descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"}},"fd9ffdb2-f806-455e-adf8-2a5da21afaf5":{"type":"travel-packages","blocks":{"a8613cc1-7e99-4294-aa62-b97c2651752a":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/package-1.jpg","county":"Pais","dias":"0","numero_peronas":"0","precio":"0","estrellas":"4.5","descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"}},"98c8f281-6366-41bd-b1c7-962e1f3748f4":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/package-2.jpg","county":"Pais","dias":"0","numero_peronas":"0","precio":"0","estrellas":"4.5","descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"}},"9eb78685-304e-43bd-a5d8-81dbde91c775":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/package-3.jpg","county":"Pais","dias":"0","numero_peronas":"0","precio":"0","estrellas":"4.5","descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"}},"1ee6cc18-1c6e-4bb9-86b7-09681d635939":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/package-4.jpg","county":"Pais","dias":"0","numero_peronas":"0","precio":"0","estrellas":"4.5","descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"}},"7e641025-5bd3-4025-b8a7-b91d7e96a674":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/package-5.jpg","county":"Pais","dias":"0","numero_peronas":"0","precio":"0","estrellas":"4.5","descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"}},"915fc662-3388-4361-a8f3-9684434caa8f":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/package-6.jpg","county":"Pais","dias":"0","numero_peronas":"0","precio":"0","estrellas":"4.5","descripcion":"<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"}}},"block_order":["a8613cc1-7e99-4294-aa62-b97c2651752a","98c8f281-6366-41bd-b1c7-962e1f3748f4","9eb78685-304e-43bd-a5d8-81dbde91c775","1ee6cc18-1c6e-4bb9-86b7-09681d635939","7e641025-5bd3-4025-b8a7-b91d7e96a674","915fc662-3388-4361-a8f3-9684434caa8f"],"settings":{}},"c2423fe0-42a0-4a0b-a768-9ba06fff0d3d":{"type":"travel-registration","settings":{"titulo":"Titulo","fondo":"shopify:\/\/shop_images\/blog-2.jpg","oferta":"30% off","descripcion":"<p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor<\/p>"}},"bfdfcfd3-0d91-4bdb-aac5-2e7375524c1f":{"type":"travel-team","blocks":{"9f6df5bf-b7e9-4daf-8700-9a3276f04b59":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/team-1.jpg","facebook":"","instagram":"","twitter":"","linkedin":""}},"5c73fca0-e452-4628-84cc-6f3efe00d82a":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/team-3.jpg","facebook":"","instagram":"","twitter":"","linkedin":""}},"fee9b06f-c72f-4cac-bc34-3232c6b8d682":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/team-4.jpg","facebook":"","instagram":"","twitter":"","linkedin":""}},"ff29552f-33ea-45aa-addd-f6dfb8583dd3":{"type":"text_block","settings":{"imgid":"shopify:\/\/shop_images\/team-2.jpg","facebook":"","instagram":"","twitter":"","linkedin":""}}},"block_order":["9f6df5bf-b7e9-4daf-8700-9a3276f04b59","5c73fca0-e452-4628-84cc-6f3efe00d82a","fee9b06f-c72f-4cac-bc34-3232c6b8d682","ff29552f-33ea-45aa-addd-f6dfb8583dd3"],"settings":{}},"6540fb15-826b-49e7-9ad8-f63f2f9070d0":{"type":"travel-testimonial","settings":{}},"73146b58-9b21-49b8-b0af-2dfa272652a7":{"type":"travel-blog","blocks":{"ed0f1515-e4b4-4f23-a1ad-2034adaf93fb":{"type":"text_block","settings":{"img1":"shopify:\/\/shop_images\/blog-3.jpg","block_number":"#","block_name":"name","block_cargo":"cargo","block_descripcion":"<p>Dolor justo sea kasd lorem clita justo diam amet<\/p>"}},"38757351-aeee-4182-a1c7-3682500ad0f4":{"type":"text_block","settings":{"img1":"shopify:\/\/shop_images\/blog-2.jpg","block_number":"#","block_name":"name","block_cargo":"cargo","block_descripcion":"<p>Dolor justo sea kasd lorem clita justo diam amet<\/p>"}},"c0178b63-5814-4be2-b990-5b1b5e3f84dc":{"type":"text_block","settings":{"img1":"shopify:\/\/shop_images\/blog-1.jpg","block_number":"#","block_name":"name","block_cargo":"cargo","block_descripcion":"<p>Dolor justo sea kasd lorem clita justo diam amet<\/p>"}}},"block_order":["ed0f1515-e4b4-4f23-a1ad-2034adaf93fb","38757351-aeee-4182-a1c7-3682500ad0f4","c0178b63-5814-4be2-b990-5b1b5e3f84dc"],"settings":{}}},"order":["4cc83a0f-e622-47b4-90fa-8197ecbf1b61","fb6ed46b-9bb0-47e4-a01e-d8309e2975b2","9c26d22f-7348-40d6-a74b-e9f7108f0c48","224d1928-a4db-4b08-9643-ade7767b7c8a","rich_text","featured_collection","64fecff1-6573-46f9-9e39-e28f79c132d7","e7b8e992-65c9-4be7-bcd2-4fa3eebcbf3c","fd9ffdb2-f806-455e-adf8-2a5da21afaf5","c2423fe0-42a0-4a0b-a768-9ba06fff0d3d","bfdfcfd3-0d91-4bdb-aac5-2e7375524c1f","6540fb15-826b-49e7-9ad8-f63f2f9070d0","73146b58-9b21-49b8-b0af-2dfa272652a7"]}
+{
+  "sections": {
+    "4cc83a0f-e622-47b4-90fa-8197ecbf1b61": {
+      "type": "travel-carousel",
+      "blocks": {
+        "bd68fd51-4ae0-465c-a23d-d35c127d5626": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/carousel-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "bd68fd51-4ae0-465c-a23d-d35c127d5626"
+      ],
+      "settings": {
+        "section_title": "Información importante",
+        "background-color": "#000000",
+        "img1": "shopify:\/\/shop_images\/carousel-1.jpg"
+      }
+    },
+    "fb6ed46b-9bb0-47e4-a01e-d8309e2975b2": {
+      "type": "travel-booking",
+      "settings": {
+        "section_title": "Información importante",
+        "background-color": "#000000"
+      }
+    },
+    "9c26d22f-7348-40d6-a74b-e9f7108f0c48": {
+      "type": "travel-about",
+      "settings": {
+        "section_title": "About Us",
+        "section_subtitle": "We Provide Best Tour Packages In Your Budget",
+        "section_description": "<p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo<\/p>",
+        "background-color": "#000000",
+        "img1": "shopify:\/\/shop_images\/about.jpg",
+        "img2": "shopify:\/\/shop_images\/about-1.jpg",
+        "img3": "shopify:\/\/shop_images\/about-2.jpg"
+      }
+    },
+    "224d1928-a4db-4b08-9643-ade7767b7c8a": {
+      "type": "travel-feature",
+      "settings": {
+        "section_title": "Información importante",
+        "background-color": "#000000"
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "64fecff1-6573-46f9-9e39-e28f79c132d7": {
+      "type": "travel-destination",
+      "blocks": {
+        "73f791b3-39b8-4042-83dc-3578d218408e": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/destination-1.jpg",
+            "title": "Estados Unidos",
+            "atractivo": "100 Ciudades"
+          }
+        },
+        "24a86f5a-0fd4-482d-a28e-7a84cfc998b6": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/destination-2.jpg",
+            "title": "United Kingdom",
+            "atractivo": "100 Ciudades"
+          }
+        },
+        "788b4af5-0c14-401a-a066-1165c86ad758": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/destination-3.jpg",
+            "title": "Australia",
+            "atractivo": "100 Ciudades"
+          }
+        },
+        "f0d86b46-94f7-4303-8a10-3bdb769c32fa": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/destination-4.jpg",
+            "title": "India",
+            "atractivo": "100 Ciudades"
+          }
+        },
+        "f502cc1a-2dbb-4541-88e1-982f1db6de14": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/destination-5.jpg",
+            "title": "South Africa",
+            "atractivo": "100 Ciudades"
+          }
+        },
+        "39db245a-506f-484c-b434-555585659970": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/destination-6.jpg",
+            "title": "Indonesia",
+            "atractivo": "100 ciudades"
+          }
+        }
+      },
+      "block_order": [
+        "73f791b3-39b8-4042-83dc-3578d218408e",
+        "24a86f5a-0fd4-482d-a28e-7a84cfc998b6",
+        "788b4af5-0c14-401a-a066-1165c86ad758",
+        "f0d86b46-94f7-4303-8a10-3bdb769c32fa",
+        "f502cc1a-2dbb-4541-88e1-982f1db6de14",
+        "39db245a-506f-484c-b434-555585659970"
+      ],
+      "settings": {
+        "section_title": "Destinos",
+        "section_subtitle": "los mejores lugares"
+      }
+    },
+    "e7b8e992-65c9-4be7-bcd2-4fa3eebcbf3c": {
+      "type": "travel-service",
+      "blocks": {
+        "54abecc8-0491-4980-b3ad-73c45194e7dc": {
+          "type": "text_block",
+          "settings": {
+          }
+        },
+        "5ffd172a-6934-4c4f-acf7-449d98dc9852": {
+          "type": "text_block",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "54abecc8-0491-4980-b3ad-73c45194e7dc",
+        "5ffd172a-6934-4c4f-acf7-449d98dc9852"
+      ],
+      "settings": {
+        "section_name": "Services",
+        "section_title": "Tours & Travel Services",
+        "c1_titulo": "Travel Guide",
+        "c1_descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>",
+        "c2_titulo": "Ticket Booking",
+        "c2_descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>",
+        "c3_titulo": "Hotel Booking",
+        "c3_descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"
+      }
+    },
+    "fd9ffdb2-f806-455e-adf8-2a5da21afaf5": {
+      "type": "travel-packages",
+      "blocks": {
+        "a8613cc1-7e99-4294-aa62-b97c2651752a": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/package-1.jpg",
+            "county": "Pais",
+            "dias": "0",
+            "numero_peronas": "0",
+            "precio": "0",
+            "estrellas": "4.5",
+            "descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"
+          }
+        },
+        "98c8f281-6366-41bd-b1c7-962e1f3748f4": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/package-2.jpg",
+            "county": "Pais",
+            "dias": "0",
+            "numero_peronas": "0",
+            "precio": "0",
+            "estrellas": "4.5",
+            "descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"
+          }
+        },
+        "9eb78685-304e-43bd-a5d8-81dbde91c775": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/package-3.jpg",
+            "county": "Pais",
+            "dias": "0",
+            "numero_peronas": "0",
+            "precio": "0",
+            "estrellas": "4.5",
+            "descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"
+          }
+        },
+        "1ee6cc18-1c6e-4bb9-86b7-09681d635939": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/package-4.jpg",
+            "county": "Pais",
+            "dias": "0",
+            "numero_peronas": "0",
+            "precio": "0",
+            "estrellas": "4.5",
+            "descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"
+          }
+        },
+        "7e641025-5bd3-4025-b8a7-b91d7e96a674": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/package-5.jpg",
+            "county": "Pais",
+            "dias": "0",
+            "numero_peronas": "0",
+            "precio": "0",
+            "estrellas": "4.5",
+            "descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"
+          }
+        },
+        "915fc662-3388-4361-a8f3-9684434caa8f": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/package-6.jpg",
+            "county": "Pais",
+            "dias": "0",
+            "numero_peronas": "0",
+            "precio": "0",
+            "estrellas": "4.5",
+            "descripcion": "<p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a8613cc1-7e99-4294-aa62-b97c2651752a",
+        "98c8f281-6366-41bd-b1c7-962e1f3748f4",
+        "9eb78685-304e-43bd-a5d8-81dbde91c775",
+        "1ee6cc18-1c6e-4bb9-86b7-09681d635939",
+        "7e641025-5bd3-4025-b8a7-b91d7e96a674",
+        "915fc662-3388-4361-a8f3-9684434caa8f"
+      ],
+      "settings": {
+      }
+    },
+    "c2423fe0-42a0-4a0b-a768-9ba06fff0d3d": {
+      "type": "travel-registration",
+      "settings": {
+        "titulo": "Titulo",
+        "fondo": "shopify:\/\/shop_images\/blog-2.jpg",
+        "oferta": "30% off",
+        "descripcion": "<p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor<\/p>"
+      }
+    },
+    "bfdfcfd3-0d91-4bdb-aac5-2e7375524c1f": {
+      "type": "travel-team",
+      "blocks": {
+        "9f6df5bf-b7e9-4daf-8700-9a3276f04b59": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/team-1.jpg",
+            "nombre": "Nombre del integrante",
+            "ocupacion": "Ocupacion del integrante",
+            "facebook": "",
+            "instagram": "",
+            "twitter": "",
+            "linkedin": ""
+          }
+        },
+        "5c73fca0-e452-4628-84cc-6f3efe00d82a": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/team-3.jpg",
+            "nombre": "Nombre del integrante",
+            "ocupacion": "Ocupacion del integrante",
+            "facebook": "",
+            "instagram": "",
+            "twitter": "",
+            "linkedin": ""
+          }
+        },
+        "fee9b06f-c72f-4cac-bc34-3232c6b8d682": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/team-4.jpg",
+            "nombre": "Nombre del integrante",
+            "ocupacion": "Ocupacion del integrante",
+            "facebook": "",
+            "instagram": "",
+            "twitter": "",
+            "linkedin": ""
+          }
+        },
+        "ff29552f-33ea-45aa-addd-f6dfb8583dd3": {
+          "type": "text_block",
+          "settings": {
+            "imgid": "shopify:\/\/shop_images\/team-2.jpg",
+            "nombre": "Nombre del integrante",
+            "ocupacion": "Ocupacion del integrante",
+            "facebook": "",
+            "instagram": "",
+            "twitter": "",
+            "linkedin": ""
+          }
+        }
+      },
+      "block_order": [
+        "9f6df5bf-b7e9-4daf-8700-9a3276f04b59",
+        "5c73fca0-e452-4628-84cc-6f3efe00d82a",
+        "fee9b06f-c72f-4cac-bc34-3232c6b8d682",
+        "ff29552f-33ea-45aa-addd-f6dfb8583dd3"
+      ],
+      "settings": {
+        "titulo": "Guides",
+        "subtitulo": "Our Travel Guides"
+      }
+    },
+    "6540fb15-826b-49e7-9ad8-f63f2f9070d0": {
+      "type": "travel-testimonial",
+      "settings": {
+      }
+    },
+    "73146b58-9b21-49b8-b0af-2dfa272652a7": {
+      "type": "travel-blog",
+      "blocks": {
+        "ed0f1515-e4b4-4f23-a1ad-2034adaf93fb": {
+          "type": "text_block",
+          "settings": {
+            "img1": "shopify:\/\/shop_images\/blog-3.jpg",
+            "block_number": "#",
+            "block_name": "name",
+            "block_cargo": "cargo",
+            "block_descripcion": "<p>Dolor justo sea kasd lorem clita justo diam amet<\/p>"
+          }
+        },
+        "38757351-aeee-4182-a1c7-3682500ad0f4": {
+          "type": "text_block",
+          "settings": {
+            "img1": "shopify:\/\/shop_images\/blog-2.jpg",
+            "block_number": "#",
+            "block_name": "name",
+            "block_cargo": "cargo",
+            "block_descripcion": "<p>Dolor justo sea kasd lorem clita justo diam amet<\/p>"
+          }
+        },
+        "c0178b63-5814-4be2-b990-5b1b5e3f84dc": {
+          "type": "text_block",
+          "settings": {
+            "img1": "shopify:\/\/shop_images\/blog-1.jpg",
+            "block_number": "#",
+            "block_name": "name",
+            "block_cargo": "cargo",
+            "block_descripcion": "<p>Dolor justo sea kasd lorem clita justo diam amet<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ed0f1515-e4b4-4f23-a1ad-2034adaf93fb",
+        "38757351-aeee-4182-a1c7-3682500ad0f4",
+        "c0178b63-5814-4be2-b990-5b1b5e3f84dc"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "4cc83a0f-e622-47b4-90fa-8197ecbf1b61",
+    "fb6ed46b-9bb0-47e4-a01e-d8309e2975b2",
+    "9c26d22f-7348-40d6-a74b-e9f7108f0c48",
+    "224d1928-a4db-4b08-9643-ade7767b7c8a",
+    "rich_text",
+    "featured_collection",
+    "64fecff1-6573-46f9-9e39-e28f79c132d7",
+    "e7b8e992-65c9-4be7-bcd2-4fa3eebcbf3c",
+    "fd9ffdb2-f806-455e-adf8-2a5da21afaf5",
+    "c2423fe0-42a0-4a0b-a768-9ba06fff0d3d",
+    "bfdfcfd3-0d91-4bdb-aac5-2e7375524c1f",
+    "6540fb15-826b-49e7-9ad8-f63f2f9070d0",
+    "73146b58-9b21-49b8-b0af-2dfa272652a7"
+  ]
+}
