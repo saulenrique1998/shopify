@@ -1,1 +1,15 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}},"e5e401e6-badf-4dc0-b3ab-2f6030c00b05":{"type":"travel-destination","settings":{"section_title":"Destinos","section_subtitle":"los mejores lugares"}}},"order":["main","e5e401e6-badf-4dc0-b3ab-2f6030c00b05"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
