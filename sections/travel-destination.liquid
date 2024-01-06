@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="{{ 'tempusdominus-bootstrap-4.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'owl.carousel.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'style.css' | asset_url }}" media="print" onload="this.media='all'">
+  <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ section.settings.section_title }}</h6>
+                <h1>{{ section.settings.section_subtitle }}</h1>
+            </div>
+            <div class="row">
+               {%- for block in section.blocks -%}
+             <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="{{ block.settings.imgid | img_url: '1536x' }}" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 style="font-weight: bold;" class="text-white">{{ block.settings.title}}</h5>
+                            <span>{{ block.settings.atractivo}}</span>
+                        </a>
+                    </div>
+                </div>
+          {%- endfor -%}
+               
+               
+                
+            </div>
+        </div>
+    </div>
+{% schema %}
+    {
+      "name": "travel destination",
+      
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_title",
+          "label": "Titulo de la sección",
+          "default": "Destinos"
+        },
+        {
+        
+          "type": "text",
+          "id": "section_subtitle",
+          "label": "Subtitulo de la sección",
+          "default": "los mejores lugares"
+        }
+      ],
+      "blocks": [
+        
+        {
+          "type": "text_block",
+          "name": "configuracion",
+          "settings": [
+             {
+          "type": "image_picker",
+          "id": "imgid",
+          "label": "imagen del contenedor"
+          
+        }
+            ,
+            {
+          "type": "text",
+          "id": "title",
+          "label": "Ciudad",
+          "default": "Ciuda"
+        }
+            ,
+            {
+          "type": "text",
+          "id": "atractivo",
+          "label": "Atractivo",
+          "default": "Información importante"
+        }
+          
+            
+           
+          ]
+        }
+        
+      ],
+      "presets": [
+        {
+          "name": "travel destination",
+          "category": "Custom content",
+          "blocks": [
+           
+           
+            
+          ]
+        }
+      ]
+    }
+    {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

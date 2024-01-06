@@ -1,0 +1,122 @@
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ section.settings.section_name }}</h6>
+                <h1>{{ section.settings.section_title }}</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-3x fa-route mx-auto mb-4"></i>
+                        <h5 class="mb-2">{{ section.settings.c1_titulo }}</h5>
+                        <p class="m-0">{{ section.settings.c1_descripcion }}</p>
+                    
+                         </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-3x fa-ticket-alt mx-auto mb-4"></i>
+                        <h5 class="mb-2">{{ section.settings.c2_titulo }}</h5>
+                        <p class="m-0">{{ section.settings.c2_descripcion }}</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-item bg-white text-center mb-2 py-5 px-4">
+                        <i class="fa fa-3x fa-hotel mx-auto mb-4"></i>
+                        <h5 class="mb-2">{{ section.settings.c3_titulo }}</h5>
+                        <p class="m-0">{{ section.settings.c3_descripcion }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% schema %}
+  {
+    "name": "travel-service",
+     "settings": [{
+          "type": "text",
+          "id": "section_name",
+          "label": "Titulo de la sección",
+          "default": "Services"
+        },
+     {
+          "type": "text",
+          "id": "section_title",
+          "label": "Titulo de la sección",
+          "default": "Tours & Travel Services"
+        },
+     {
+          "type": "text",
+          "id": "c1_titulo",
+          "label": "Titulo targeta 1",
+          "default": "Travel Guide"
+        },
+     {
+          "type": "richtext",
+          "id": "c1_descripcion",
+          "label": "Titulo de la sección",
+          "default": "<p >Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>"
+        },
+     {
+          "type": "text",
+          "id": "c2_titulo",
+          "label": "Titulo targeta 1",
+          "default": "Ticket Booking"
+        },
+     {
+       "type": "richtext",
+          "id": "c2_descripcion",
+          "label": "Titulo de la sección",
+          "default": "<p >Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>"
+        
+         },
+     {
+          "type": "text",
+          "id": "c3_titulo",
+          "label": "Titulo targeta 1",
+          "default": "Hotel Booking"
+        },
+     {"type": "richtext",
+          "id": "c3_descripcion",
+          "label": "Titulo de la sección",
+          "default": "<p >Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>"
+        
+        }
+     
+     ],
+      "blocks": [
+          {
+          "type": "text_block",
+          "name": "configuracion",
+          "settings": [
+           
+          ]
+        }
+        
+      
+        
+      ],
+      "presets": [
+        {
+        "name": "travel-service",
+          "category": "Custom content",
+          "blocks": [
+            
+           
+            
+          ]
+        }
+        
+      ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

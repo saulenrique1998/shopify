@@ -1,0 +1,125 @@
+<link rel="stylesheet" href="{{ 'tempusdominus-bootstrap-4.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'owl.carousel.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'style.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
+                <h1>Pefect Tour Packages</h1>
+            </div>
+            <div class="row">
+                {%- for block in section.blocks -%}
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="{{ block.settings.imgid | img_url: '1536x' }}" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>{{ block.settings.pais }}</small>
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>{{ block.settings.dias }}</small>
+                                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>{{ block.settings.numero_personas }}</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="">{{ block.settings.descripcion }}</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>{{ block.settings.estrellas }} <small>(250)</small></h6>
+                                    <h5 class="m-0">${{ block.settings.precio }}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  {%- endfor -%}
+                </div>
+                  
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer="async"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"defer="async"></script>
+<script src="{{ 'waypoints.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'counterup.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'easing.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'owl.carousel.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'moment.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'moment-timezone.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'tempusdominus-bootstrap-4.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'main.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+  {
+    "name": "travel-package",
+     "settings": [ ],
+      "blocks": [
+          {
+          "type": "text_block",
+          "name": "configuracion",
+          "settings": [
+             {
+          "type": "image_picker",
+          "id": "imgid",
+          "label": "imagen del contenedor"
+          
+        } ,{
+          "type": "text",
+          "id": "county",
+          "label": "Pais ",
+          "default": "Pais"
+        }
+        ,{
+          "type": "text",
+          "id": "dias",
+          "label": "Dias ",
+          "default": "0"
+        },
+            {
+          "type": "text",
+          "id": "numero_peronas",
+          "label": "Numero de personas ",
+          "default": "0"
+        },
+            {
+          "type": "text",
+          "id": "precio",
+          "label": "Precio",
+          "default": "0"
+        },
+            {
+          "type": "text",
+          "id": "estrellas",
+          "label": "Numero de estrellas ",
+          "default": "4.5"
+        },
+     {"type": "richtext",
+          "id": "descripcion",
+          "label": "Descripcion ",
+          "default": "<p >Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem est amet labore</p>"
+        
+        }
+           
+          ]
+        }
+        
+      
+        
+      ],
+      "presets": [
+        {
+        "name": "travel-package",
+          "category": "Custom content",
+          "blocks": [
+            
+           
+            
+          ]
+        }
+        
+      ]
+  }
+{% endschema %}
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

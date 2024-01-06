@@ -1,0 +1,114 @@
+<link rel="stylesheet" href="{{ 'tempusdominus-bootstrap-4.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'owl.carousel.min.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'style.css' | asset_url }}" media="print" onload="this.media='all'">
+ <div class="container-fluid py-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="{{ section.settings.img1 | img_url:'750x' }}" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ section.settings.section_title }}</h6>
+                        <h1 class="mb-3">{{ section.settings.section_subtitle }}</h1>
+                         <div class="row mb-4">
+                           {{ section.settings.section_description}}
+                            <div class="col-6">
+                                <img class="img-fluid" src="{{ section.settings.img2 | img_url:'750x' }}" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid" src="{{ section.settings.img3 | img_url:'750x' }}" alt="">
+                            </div>
+                        </div>
+                        <a href="" class="btn btn-primary mt-1">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+{% schema %}
+    {
+      "name": "travel about",
+      
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_title",
+          "label": "Titulo de la sección",
+          "default": "About Us"
+        },
+        {
+          "type": "text",
+          "id": "section_subtitle",
+          "label": "Titulo de la sección",
+          "default": "We Provide Best Tour Packages In Your Budget"
+        },
+        {
+          "type": "richtext",
+          "id": "section_description",
+          "label": "Titulo de la sección",
+          "default": " <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>"
+        },
+        {
+          "type": "color",
+          "id": "background-color",
+          "label": "fondo del contenedor",
+          "default":"#000000"
+        },
+         {
+          "type": "image_picker",
+          "id": "img1",
+          "label": "imagen del contenedor"
+          
+        },
+         {
+          "type": "image_picker",
+          "id": "img2",
+          "label": "imagen del contenedor"
+          
+        },
+         {
+          "type": "image_picker",
+          "id": "img3",
+          "label": "imagen del contenedor"
+          
+        }
+      ],
+      "blocks": [
+        
+        {
+          "type": "text_block",
+          "name": "configuracion",
+          "settings": [
+             {
+          "type": "image_picker",
+          "id": "imgid",
+          "label": "imagen del contenedor"
+          
+        }
+           
+          ]
+        }
+        
+      ],
+      "presets": [
+        {
+          "name": "travel about",
+          "category": "Custom content",
+          "blocks": [
+           
+           
+            
+          ]
+        }
+      ]
+    }
+    {% endschema %}
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
