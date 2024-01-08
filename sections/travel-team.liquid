@@ -1,40 +1,66 @@
-<link rel="stylesheet" href="{{ 'tempusdominus-bootstrap-4.min.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'owl.carousel.min.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'style.css' | asset_url }}" media="print" onload="this.media='all'">
+<link
+  rel="stylesheet"
+  href="{{ 'tempusdominus-bootstrap-4.min.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'">
+<link
+  rel="stylesheet"
+  href="{{ 'owl.carousel.min.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'">
+<link
+  rel="stylesheet"
+  href="{{ 'style.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'">
 
-  <div class="container-fluid py-5">
-        <div class="container pt-5 pb-3">
-            <div class="text-center mb-3 pb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ section.settings.titulo }}</h6>
-                <h1>{{ section.settings.subtitulo }}</h1>
-            </div>
-            <div class="row">
-               {%- for block in section.blocks -%}
-            
-          
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
-                    <div class="team-item bg-white mb-4">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ block.settings.imgid | img_url: '1536x' }}" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.twitter }}"><i class="fab fa-3x fa-twitter"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.facebook }}"><i class="fab fa-3x fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.instagram }}"><i class="fab fa-3x fa-instagram"></i></a>
-                                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.linkedin }}"><i class="fab fa-3x fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h5 class="text-truncate">{{ block.settings.nombre }}</h5>
-                            <p class="m-0">{{ block.settings.ocupacion }}</p>
-                        </div>
-                    </div>
-                </div>
-              {%- endfor -%}
-                </div>
-        </div>
+<div class="container-fluid py-5">
+  <div class="container pt-5 pb-3">
+    <div class="text-center mb-3 pb-3">
+      <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">{{ section.settings.titulo }}</h6>
+      <h1>{{ section.settings.subtitulo }}</h1>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer="async"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"defer="async"></script>
+    <div class="row">
+      {%- for block in section.blocks -%}
+
+
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img
+                class="img-fluid w-100"
+                src="{{ block.settings.imgid | img_url: '1536x' }} "
+                width="auto"
+                height="auto"
+                loading="eager"
+                alt="">
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.twitter }}">
+                  <i class="fab fa-3x fa-twitter"></i>
+                </a>
+                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.facebook }}">
+                  <i class="fab fa-3x fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.instagram }}">
+                  <i class="fab fa-3x fa-instagram"></i>
+                </a>
+                <a class="btn btn-outline-primary btn-square" href="{{ block.settings.linkedin }}">
+                  <i class="fab fa-3x fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">{{ block.settings.nombre }}</h5>
+              <p class="m-0">{{ block.settings.ocupacion }}</p>
+            </div>
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" defer="async"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" defer="async"></script>
 <script src="{{ 'waypoints.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'counterup.min.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'easing.min.js' | asset_url }}" defer="defer"></script>
@@ -47,93 +73,78 @@
 {% schema %}
   {
     "name": "travel-team",
-     "settings": [
-       {
-         "type":"text",
-         "id":"titulo",
-         "label":"Tituo de la seccion ",
-               "default":"Guides"
-         
-       },
-       {
-         "type":"text",
-         "id":"subtitulo",
-         "label":"Subtitulo ",
-               "default":"Our Travel Guides"
-         
-       }
-     ],
-      "blocks": [
-           {
-          "type": "text_block",
-          "name": "Integrantes",
-          "settings": [
-             {
-          "type": "image_picker",
-          "id": "imgid",
-          "label": "imagen del integrante"
-          
-        },
-             {
-         "type":"text",
-         "id":"nombre",
-         "label":"Nombre del integrante ",
-               "default":"Nombre del integrante"
-         
-       }
-        ,
-             {
-         "type":"text",
-         "id":"ocupacion",
-         "label":"Ocupacion del integrante ",
-               "default":"Ocupacion del integrante"
-         
-       }
-        ,
-             {
-         "type":"url",
-         "id":"facebook",
-         "label":"Facebook "
-         
-       }
-        ,
-       {
-         "type":"url",
-         "id":"instagram",
-         "label":"Instagram "
-       }
-        ,
-       {
-         "type":"url",
-         "id":"twitter",
-         "label":"Twitter "
-       }
-        ,
-       {
-         "type":"url",
-         "id":"linkedin",
-         "label":"Linkedin "
-       }
-      
-          ]
-           }
-           
-        
-      
-        
-      ],
-      "presets": [
-        {
+    "settings": [
+      {
+        "type": "text",
+        "id": "titulo",
+        "label": "Tituo de la seccion ",
+        "default": "Guides"
+
+      }, {
+        "type": "text",
+        "id": "subtitulo",
+        "label": "Subtitulo ",
+        "default": "Our Travel Guides"
+
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text_block",
+        "name": "Integrantes",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "imgid",
+            "label": "imagen del integrante"
+
+          },
+          {
+            "type": "text",
+            "id": "nombre",
+            "label": "Nombre del integrante ",
+            "default": "Nombre del integrante"
+
+          },
+          {
+            "type": "text",
+            "id": "ocupacion",
+            "label": "Ocupacion del integrante ",
+            "default": "Ocupacion del integrante"
+
+          },
+          {
+            "type": "url",
+            "id": "facebook",
+            "label": "Facebook "
+
+          }, {
+            "type": "url",
+            "id": "instagram",
+            "label": "Instagram "
+          }, {
+            "type": "url",
+            "id": "twitter",
+            "label": "Twitter "
+          }, {
+            "type": "url",
+            "id": "linkedin",
+            "label": "Linkedin "
+          }
+
+        ]
+      }
+
+
+    ],
+    "presets": [
+      {
         "name": "travel-team",
-          "category": "Custom content",
-          "blocks": [
-            
-           
-            
-          ]
-        }
-        
-      ]
+        "category": "Custom content",
+        "blocks": []
+      }
+
+    ]
   }
 {% endschema %}
 

@@ -19,6 +19,9 @@
       <div class="col-lg-6" style="min-height: 500px;">
         <div class="position-relative h-100">
           <img
+            width="auto"
+            height="auto"
+            loading="eager"
             class="position-absolute w-100 h-100"
             src="{{ 'about.jpg' | asset_url }}"
             style="object-fit: cover;">
@@ -32,12 +35,18 @@
             {{ section.settings.section_description }}
             <div class="col-6">
               <img
+                width="auto"
+                height="auto"
+                loading="eager"
                 class="img-fluid"
                 src="{{ section.settings.img2 | img_url:'750x' }}"
                 alt="">
             </div>
             <div class="col-6">
               <img
+                width="auto"
+                height="auto"
+                loading="eager"
                 class="img-fluid"
                 src="{{ section.settings.img3 | img_url:'750x' }}"
                 alt="">
