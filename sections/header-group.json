@@ -2,13 +2,13 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "travel-header": {
-      "type": "travel-header",
+    "header": {
+      "type": "header",
       "settings": {
         "section_title": "Información importante",
         "background-color": "#000000"
       }
     }
   },
-  "order": ["travel-header"]
+  "order": ["header"]
 }
