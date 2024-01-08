@@ -75,26 +75,42 @@
       <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
         <div class="navbar-nav ml-auto py-0">
           {% comment %} <a href="/" class="nav-item nav-link active">Home</a>
-                                  <a href="/pages/about" class="nav-item nav-link">About</a>
-                                  <a href="/pages/service" class="nav-item nav-link">Services</a>
-                                  <a href="/pages/package" class="nav-item nav-link">Tour Packages</a>
-                                  <div class="nav-item dropdown">
-                                    <a
-                                      href="#"
-                                      class="nav-link dropdown-toggle"
-                                      data-toggle="dropdown">Pages</a>
-                                    <div class="dropdown-menu border-0 rounded-0 m-0">
-                                      <a href="/pages/blog" class="dropdown-item">Blog Grid</a>
-                                      <a href="/pages/single" class="dropdown-item">Blog Detail</a>
-                                      <a href="/pages/destination" class="dropdown-item">Destination</a>
-                                      <a href="/pages/guide" class="dropdown-item">Travel Guides</a>
-                                      <a href="/pages/testimonial" class="dropdown-item">Testimonial</a>
-                                    </div>
-                                  </div>
-                                  <a href="/pages/contact" class="nav-item nav-link">Contact</a>
-                            {% endcomment %}
+                                              <a href="/pages/about" class="nav-item nav-link">About</a>
+                                              <a href="/pages/service" class="nav-item nav-link">Services</a>
+                                              <a href="/pages/package" class="nav-item nav-link">Tour Packages</a>
+                                              <div class="nav-item dropdown">
+                                                <a
+                                                  href="#"
+                                                  class="nav-link dropdown-toggle"
+                                                  data-toggle="dropdown">Pages</a>
+                                                <div class="dropdown-menu border-0 rounded-0 m-0">
+                                                  <a href="/pages/blog" class="dropdown-item">Blog Grid</a>
+                                                  <a href="/pages/single" class="dropdown-item">Blog Detail</a>
+                                                  <a href="/pages/destination" class="dropdown-item">Destination</a>
+                                                  <a href="/pages/guide" class="dropdown-item">Travel Guides</a>
+                                                  <a href="/pages/testimonial" class="dropdown-item">Testimonial</a>
+                                                </div>
+                                              </div>
+                                              <a href="/pages/contact" class="nav-item nav-link">Contact</a>
+                                      {% endcomment %}
+          {%- liquid
+            if section.settings.menu != blank
+              render 'header-drawer'
+            endif
 
-          {% render 'header-mega-menu' %}
+            if section.settings.logo_position == 'top-center' or section.settings.menu == blank
+              render 'header-search', input_id: 'Search-In-Modal-1'
+            endif
+          -%}
+          {%- liquid
+            if section.settings.menu != blank
+              if section.settings.menu_type_desktop == 'dropdown'
+                render 'header-dropdown-menu'
+              elsif section.settings.menu_type_desktop != 'drawer'
+                render 'header-mega-menu'
+              endif
+            endif
+          %}
         </div>
         <form
           action="{{ routes.search_url }}"
