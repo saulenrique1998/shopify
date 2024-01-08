@@ -4,11 +4,23 @@
   "sections": {
     "travel-header": {
       "type": "travel-header",
+      "blocks": {
+        "46817e12-164e-4ff6-886a-3bad6d4cfc04": {
+          "type": "text_block",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "46817e12-164e-4ff6-886a-3bad6d4cfc04"
+      ],
       "settings": {
         "section_title": "Información importante",
         "background-color": "#000000"
       }
     }
   },
-  "order": ["travel-header"]
+  "order": [
+    "travel-header"
+  ]
 }
