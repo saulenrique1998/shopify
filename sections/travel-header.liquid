@@ -92,6 +92,9 @@
             </div>
           </div>
           <a href="/pages/contact" class="nav-item nav-link">Contact</a>
+          {%- liquid
+            render 'header-dropdown-menu'
+          -%}
         </div>
         <form
           action="{{ routes.search_url }}"
