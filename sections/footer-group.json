@@ -1,1 +1,23 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"travel-footer","settings":{}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "travel-footer",
+      "settings": {
+        "section_title": "Titulo",
+        "section_descripcion": "<p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor<\/p><p><\/p>",
+        "telefono": "1234567890",
+        "correo": "correo@algo.com",
+        "direccion": "avenida 1",
+        "facebook": "",
+        "instagram": "",
+        "twitter": "",
+        "linkedin": ""
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
