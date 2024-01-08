@@ -84,11 +84,9 @@
               class="nav-link dropdown-toggle"
               data-toggle="dropdown">Pages</a>
             <div class="dropdown-menu border-0 rounded-0 m-0">
-              <a href="/pages/blog" class="dropdown-item">Blog Grid</a>
-              <a href="/pages/single" class="dropdown-item">Blog Detail</a>
-              <a href="/pages/destination" class="dropdown-item">Destination</a>
-              <a href="/pages/guide" class="dropdown-item">Travel Guides</a>
-              <a href="/pages/testimonial" class="dropdown-item">Testimonial</a>
+              {%- for block in section.blocks -%}
+                <a href="/pages/{{ block.settings.link }}" class="dropdown-item">{{ block.settings.link }}</a>
+              {% endfor %}
             </div>
           </div>
           <a href="/pages/contact" class="nav-item nav-link">Contact</a>
@@ -326,8 +324,16 @@
 
       {
         "type": "text_block",
-        "name": "configuracion",
-        "settings": []
+        "name": "link",
+        "settings": [
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link a pagina",
+            "default": "pagina"
+          }
+
+        ]
       }
 
     ],
