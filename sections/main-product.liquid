@@ -225,7 +225,10 @@
                 </label>
                 {%- assign cantidad =  product.metafields.custom.cantidad -%}
                 {%- assign total = cantidad | times: product.selected_or_first_available_variant.quantity_rule.min -%}
-                 <form id="form-cantidad">
+                <div class="price-per-item__container">
+                 
+                  <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
+                    <form id="form-cantidad">
                           
                           
                     <input
@@ -253,10 +256,6 @@
                  
 
                 </form>
-                <div class="price-per-item__container">
-                 
-                  <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
-               
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
                       <span class="visually-hidden">
                         {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
@@ -268,7 +267,7 @@
                       class="quantity__input"
                       type="number"
                       name="quantity"
-                      id="Quantity-{{ section.id }}"
+                      id="Quantity"
                       data-cart-quantity="{{ cart_qty }}"
                       data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
@@ -626,8 +625,9 @@
    function performSearch1(event) {
     event.preventDefault();
     var searchInput1 = document.getElementById("cantidad");
+    var quantityin = document.getElementById("Quantity");
 
-    console.log(cantidad)
+    console.log(quantityin.value)
   }
   var searchForm1 = document.getElementById("form-cantidad");
   searchForm1.onsubmit = performSearch1;
