@@ -231,7 +231,7 @@
                 <input
                   class="quantity__input"
                   type="number"
-                  name="updates[]"
+                  name=Quantity-{{ section.id }}
                   id="cantidad"
                   data-cart-quantity="{{ cart_qty }}"
                   data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
@@ -629,7 +629,7 @@
     var quantityin = document.getElementById("Quantity");
     quantityin.value=searchInput1.value*quantityin.value;
 
-    console.log(quantityin.value)
+    console.log(searchForm1.name)
   }
   var searchForm1 = document.getElementById("form-cantidad");
   searchForm1.onsubmit = performSearch1;
