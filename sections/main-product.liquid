@@ -254,6 +254,32 @@
                       {% render 'icon-plus' %}
                     </button>
                   </quantity-input>
+            {%- if product.metafields.reviews.rating -%}
+                    
+                    <input
+                      class="quantity__input"
+                      type="number"
+                      name="cantidad"
+                      id="cantidad-{{ section.id }}"
+                      data-cart-quantity="{{ cart_qty }}"
+                      data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                      min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                      {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
+                        data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                        max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                      {% endif %}
+                      step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                      value="{{ product.metafields.custom.cantidad }}"
+                      form="{{ product_form_id }}"
+                      
+                    />
+                    {%- assign cantidad =  product.metafields.custom.cantidad -%}
+                   {{ cantidad | times: 2 }}
+                    
+                    <div>
+                      {{ cantidad }}
+                    </div>
+                  {%- endif -%}
                   {%- liquid
                     assign volume_pricing_array = product.selected_or_first_available_variant.quantity_price_breaks | sort: 'quantity' | reverse
                     assign current_qty_for_volume_pricing = cart_qty | plus: product.selected_or_first_available_variant.quantity_rule.min
