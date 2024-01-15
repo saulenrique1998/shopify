@@ -242,6 +242,7 @@
                     />
                     {%- assign cantidad =  product.metafields.custom.cantidad -%}
                     {%- assign total = cantidad | times: product.selected_or_first_available_variant.quantity_rule.min -%}
+            {% assign cart_qty= total %}
                    
                 <div class="price-per-item__container">
                  
