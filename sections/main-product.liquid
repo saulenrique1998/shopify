@@ -627,6 +627,7 @@
     event.preventDefault();
     var searchInput1 = document.getElementById("cantidad");
     var quantityin = document.getElementById("Quantity");
+    quantityin.value=searchInput1.value*quantityin.value;
 
     console.log(quantityin.value)
   }
