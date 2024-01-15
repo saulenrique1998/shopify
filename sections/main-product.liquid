@@ -225,6 +225,7 @@
                 </label>
                 {%- assign cantidad =  product.metafields.custom.cantidad -%}
                 {%- assign total = cantidad | times: product.selected_or_first_available_variant.quantity_rule.min -%}
+                {%- if product.metafields.custom.cantidad != blank -%}
                 <form id="form-cantidad">
                           
                           
@@ -253,6 +254,7 @@
              
 
             </form>
+                {% endif %}
                 <div class="price-per-item__container">
                  
                   <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
