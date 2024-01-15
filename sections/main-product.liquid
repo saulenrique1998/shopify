@@ -226,35 +226,36 @@
                 {%- assign cantidad =  product.metafields.custom.cantidad -%}
                 {%- assign total = cantidad | times: product.selected_or_first_available_variant.quantity_rule.min -%}
                 <div class="price-per-item__container">
-                  <form id="form-cantidad">
-                    {%- if product.metafields.reviews.rating -%}
-                    
-                      <input
-                        class="quantity__input"
-                        type="number"
-                        name="updates[]"
-                        id="cantidad"
-                        data-cart-quantity="{{ cart_qty }}"
-                        data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                        min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                        {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
-                          data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                          max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                        {% endif %}
-                        step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
-                        value="{{ product.metafields.custom.cantidad }}"
-                        form="{{ product_form_id }}"
-                        
-                      />
-                     
-                      <button type="submit" name="update">boton</button>
-                     
-                      
-                      
-                    {%- endif -%}
-
-                  </form>
+                 
                   <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
+                    <form id="form-cantidad">
+                      {%- if product.metafields.reviews.rating -%}
+                      
+                        <input
+                          class="quantity__input"
+                          type="number"
+                          name="updates[]"
+                          id="cantidad"
+                          data-cart-quantity="{{ cart_qty }}"
+                          data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                          min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                          {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
+                            data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                            max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                          {% endif %}
+                          step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                          value="{{ product.metafields.custom.cantidad }}"
+                          form="{{ product_form_id }}"
+                          
+                        />
+                       
+                        <button type="submit" name="update">boton</button>
+                       
+                        
+                        
+                      {%- endif -%}
+  
+                    </form>
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
                       <span class="visually-hidden">
                         {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
