@@ -228,7 +228,7 @@
                 <div class="price-per-item__container">
                  
                   <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
-                    <form id="form-cantidad">
+                  
                       {%- if product.metafields.reviews.rating -%}
                       
                         <input
@@ -255,7 +255,7 @@
                         
                       {%- endif -%}
   
-                    </form>
+                   
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
                       <span class="visually-hidden">
                         {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
