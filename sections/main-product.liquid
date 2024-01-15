@@ -273,6 +273,7 @@
                     />
                     {%- assign cantidad =  product.metafields.custom.cantidad -%}
                     {%- assign total = cantidad | times: product.selected_or_first_available_variant.quantity_rule.min -%}
+             <button type="submit" name="update"></button>
                {% assign cart_qty= total %}
                   <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
