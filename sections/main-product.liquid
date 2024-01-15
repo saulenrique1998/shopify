@@ -268,7 +268,7 @@
                       class="quantity__input"
                       type="number"
                       name="quantity"
-                      id="Quantity"
+                      id="Quantity-{{ section.id }}"
                       data-cart-quantity="{{ cart_qty }}"
                       data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
@@ -626,10 +626,10 @@
    function performSearch1(event) {
     event.preventDefault();
     var searchInput1 = document.getElementById("cantidad");
-    var quantityin = document.getElementById("Quantity");
+    var quantityin = document.getElementById("Quantity{{ section.id }}");
     quantityin.value=searchInput1.value*quantityin.value;
 
-    console.log(searchForm1.tagName)
+    console.log(quantityin.value)
   }
   var searchForm1 = document.getElementById("form-cantidad");
   searchForm1.onsubmit = performSearch1;
