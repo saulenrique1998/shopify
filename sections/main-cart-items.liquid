@@ -103,6 +103,13 @@
                       {%- endif -%}
 
                       <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
+                  {% if item.product.title == 'Selling Plans Ski Wax'%}
+                        <div id="dato2">hola</div>
+                        {% endif %}
+                      {% if item.product.title == 'The 3p Fulfilled Snowboard'%}
+                        <div id="dato2">hola2</div>
+                        {% endif %}
+
 
                       {%- if item.original_price != item.final_price -%}
                         <div class="cart-item__discounted-prices">
