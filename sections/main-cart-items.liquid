@@ -104,7 +104,7 @@
 
                       <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
                   {% if item.product.title == 'Selling Plans Ski Wax'%}
-                        <div id="dato2">hola</div>
+                        <div id="dato">hola</div>
                         {% endif %}
                       {% if item.product.title == 'The 3p Fulfilled Snowboard'%}
                         <div id="dato2">hola2</div>
@@ -456,6 +456,11 @@
     </form>
   </div>
 </cart-items>
+                              <script>
+                                let dato= document.getElementById("dato");
+                                let dato2= document.getElementById("dato2");
+                                dato? console.log("hola"):console.log("no ");
+                              </script>
 
 {% schema %}
 {
